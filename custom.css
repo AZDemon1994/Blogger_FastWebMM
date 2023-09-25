@@ -97,6 +97,34 @@ ul.menu-list .fa {
 	position: relative;
 }
 
+.section h2 {
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #26547C;
+}
+
+.section h3 {
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+#price-table h3 > span {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+#price-table hr {
+	width: 90%;
+	margin: auto;
+}
+
+.price-des {
+	font-size: 13px;
+	color: grey;
+}
+
 
 #review-section .nav-tabs .nav-link {
 	color: white;

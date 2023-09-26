@@ -3,23 +3,20 @@
 	margin: 0;
 }
 
-
-img#logo {
-	width: 40px;
-	height: 40px;
-	border-radius: 10px;
-	margin-right: 10px;
+@font-face {
+	font-family: MyanmarFont;
+	src: url(https://raw.githack.com/zayar-1994/mmwebfonts/main/MyanmarGantGaw.ttf);
 }
 
-a.navbar-brand {
-	font-weight: 300;
+.myan {
+	font-family: MyanmarFont !important;
 }
 
-span#logo-text {
-	font-weight: 900;
-}
 
-/*Custom Colors Class ---============================================ */
+
+
+
+/* Public Class ---============================================ */
 
 .primary-bg {
 	background-color: #26547C !important;
@@ -41,7 +38,18 @@ span#logo-text {
 	color: tomato;
 }
 
-/* Public Class ===========================================*/
+.fake-img {
+	content: 'Fake Img';
+	background-color: grey;
+	text-align: center;
+	position: relative;
+	justify-content: center;
+}
+
+
+/* Public Class End ===========================================*/
+
+
 
 .menu-list-title {
 	margin-bottom: 15px;
@@ -70,7 +78,7 @@ ul > li > a:hover {
 	color: tomato;
 }
 
-ul.menu-list .fa {
+ul.menu-list i {
 	padding-right: 8px;
 	padding-left: 8px;
 	margin-right: 5px;
@@ -83,10 +91,29 @@ ul.menu-list .fa {
 }
 
 /*Main Page CSS Settin ================================ */
+img#logo {
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+a.navbar-brand {
+	font-weight: 300;
+}
+
+span#logo-text {
+	font-weight: 900;
+}
+
 #mainCarousel {
 	height: 350px;
 	overflow: hidden;
 	z-index: 0;
+}
+
+#mainCarousel img {
+	height: 350px;
 }
 
 .section h1 {
@@ -134,4 +161,6 @@ ul.menu-list .fa {
 	color: black;
 }
 
-//// Test
+#address i {
+	color: tomato;
+}
